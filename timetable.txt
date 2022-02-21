@@ -1,0 +1,34 @@
+
+*Add this file to a folder called timetable in my git repo* 
+
+Rough Timetable of Java 
+
+Week 1 (Specialism) / (General) 5 21st Feb 
+Intro to Java 
+- Setting up Java 
+- Setting up an IDE (Interactive Development Environment) Eclipse 
+- Javs Data types
+- Java Logic 
+- Java OOP (Object Oriented Programming) 
+- Friday Hackathon
+
+Week 2 28th Feb 
+Intro + Intermeditate 
+- Applying OOP 
+- More complex commands
+- Testing 
+- Friday Hackathon
+- Afternoon for Azure revision 
+
+Week 3 7th March 
+Intermediate
+- More Testing
+- Frameworks 
+- Database connections 
+- Friday Hackathon
+
+Week 4 14th March 
+Spring Frameworks (Tools for making Java Apps)
+
+Week 5 21st March 
+Spring project
