@@ -12,19 +12,19 @@ public class HelloWorld {
 //  Method - Block of code to instruct / tell the computer what to do
 	
 	
-	public static void main(String[] args) {
-		
-		// This is our command to print text
-		// Java is a very picky language
-		// Generally Java commands are lowercase 
-		// All Java commands MUST end in a semicolon
-		System.out.println("Hello all");
-		
-		// To run our project we:
-		// Right click the project, 
-		// Run as Java Application 
-		
-	}
+//	public static void main(String[] args) {
+//		
+//		// This is our command to print text
+//		// Java is a very picky language
+//		// Generally Java commands are lowercase 
+//		// All Java commands MUST end in a semicolon
+//		System.out.println("Hello all");
+//		
+//		// To run our project we:
+//		// Right click the project, 
+//		// Run as Java Application 
+//		
+//	}
 	
 // Exercise - Create a class that prints out "Hello World"
 //	and "My name is <name>" on two different lines
