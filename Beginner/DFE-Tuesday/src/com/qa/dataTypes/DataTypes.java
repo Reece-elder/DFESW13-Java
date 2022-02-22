@@ -43,5 +43,44 @@ public class DataTypes {
 		// true is not a String 
 		return false;
 	}
+	
+	// Exercise 
+	// float
+	// char
+	// double
+	// long 
+	// convert from String to int
+	// int to String
+	
+	public static float returnFloat() {
+		return 12.46f;
+	}
+	
+	public static char returnChar() {
+		return 'a';
+	}
+	
+	// Doubles dont need a letter at the end (essentially the medium decimal) 
+	public static double returnDouble() {
+		return 123.734928;
+	}
+	
+	public static long returnLong() {
+		return 6737833949484948l;
+	}
+	
+	// Converting data types can be done through different ways 
+	public static int convertString() {
+		// You would only know this by researching it
+		int number = Integer.parseInt("100");
+		return number; 
+	}
+	
+	public static String convertInt() {
+		String string = Integer.toString(5);
+		return string;
+	}
+	
+	
 
 }

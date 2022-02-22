@@ -3,6 +3,7 @@ package com.qa.runner;
 // Importing all classes from the package com.qa.colourPrint
 import com.qa.colourPrint.*;
 import com.qa.dataTypes.DataTypes;
+import com.qa.operators.Intro;
 import com.qa.packageRecap.PackageRecap;
 
 public class Runner {
@@ -15,6 +16,7 @@ public class Runner {
 		System.out.println(DataTypes.returnBool());
 		System.out.println(DataTypes.returnFalse());
 		System.out.println(PackageRecap.printName());
+		System.out.println(Intro.addNums());
 	}
 	
 	// Exercise - Convert a recent project to use a runner package as well as a package
