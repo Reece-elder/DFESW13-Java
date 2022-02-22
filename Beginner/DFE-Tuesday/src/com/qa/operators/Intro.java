@@ -44,6 +44,19 @@ public class Intro {
 		
 	}
 	
+	public static boolean convertBool() {
+		
+		// Creating a variable of type boolean
+		// It is equal to true
+		boolean testBool = true;
+		
+		// Makes our resultBool equal to the OPPOSITE of testBool(true)
+		boolean resultBool = !testBool;
+		
+		return resultBool;
+		
+	}
+	
 	// Exercise Create methods for the following: 
 	// add two nums
 	// sub two nums
