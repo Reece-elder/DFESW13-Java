@@ -1,3 +1,4 @@
+package com.qa.colourPrint;
 
 // Global best practices - Classes beginning with capital letters
 // Company best practices - All variables should be snake_case
@@ -5,11 +6,11 @@
 
 public class ColourShape {
 	
-	public static void main(String[] args) {
-		// Concatenation - Adding Strings together colour() + shape()
-		System.out.println(number());
-		System.out.println(colour() + " " + shape());
-	}
+//	public static void main(String[] args) {
+//		// Concatenation - Adding Strings together colour() + shape()
+//		System.out.println(number());
+//		System.out.println(colour() + " " + shape());
+//	}
 	
 	// Method to return the colour
 	public static String colour() {
