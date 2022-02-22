@@ -4,10 +4,10 @@ public class Methods {
 	// Only code that ever runs is in main method
 	// Ctrl + Space opens up the snippet window 
 	
-	public static void main(String[] args) {
-		printMessage();
-		printMessage();
-	}
+//	public static void main(String[] args) {
+//		printMessage();
+//		printMessage();
+//	}
 	
 	// A new method called printMessage	
 	public static void printMessage() {
