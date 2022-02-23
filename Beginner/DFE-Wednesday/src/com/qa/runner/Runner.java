@@ -1,5 +1,6 @@
 package com.qa.runner;
 
+import com.qa.conditionals.Demo;
 import com.qa.exercises.DiceTask;
 import com.qa.flowControl.FlowControl;
 import com.qa.flowControl.MethodStack;
@@ -11,8 +12,10 @@ public class Runner {
 //		System.out.println(MethodStack.firstLayer(7));
 //		System.out.println(MethodStack.scoreManager(10));
 		
-		System.out.println(DiceTask.exerciseOne());
-		System.out.println(DiceTask.exerciseTwo());
+//		System.out.println(DiceTask.exerciseOne());
+//		System.out.println(DiceTask.exerciseTwo());
+		Demo.basicDemo(7);
+		Demo.compoundDemo(true, "green", 6);
 		
 		System.out.println("main left stack");
 		
