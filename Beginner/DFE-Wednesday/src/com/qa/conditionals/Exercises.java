@@ -40,6 +40,7 @@ public class Exercises {
 				}
 			}
 		} else {
+			System.out.println("1");
 			return true;
 		}
 		
