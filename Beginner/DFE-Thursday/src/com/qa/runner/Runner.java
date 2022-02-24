@@ -1,6 +1,7 @@
 package com.qa.runner;
 
 import com.qa.array.ArrayDemo;
+import com.qa.array.ArrayListDemo;
 import com.qa.iterations.Exercises;
 import com.qa.iterations.Iterations;
 
@@ -11,8 +12,9 @@ public class Runner {
 //		Exercises.flowchartTwo();
 //		Exercises.flowChartFor();
 //		Exercises.questionFive();
-		ArrayDemo.arrayExample();
-		ArrayDemo.arrayExample();
+//		ArrayDemo.arrayExample();
+//		ArrayDemo.arrayExample();
+		ArrayListDemo.pizzaShop();
 	}
 
 }
