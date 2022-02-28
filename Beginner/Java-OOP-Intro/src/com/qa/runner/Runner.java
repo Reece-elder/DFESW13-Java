@@ -1,5 +1,6 @@
 package com.qa.runner;
 
+import com.qa.cakeDemo.Cake;
 import com.qa.cakeDemo.CakeTin;
 
 public class Runner {
@@ -21,14 +22,14 @@ public class Runner {
 		
 		System.out.println(spongeCake.flavour);
 		
-		/* Exercise 
-		 * Plan what object you want and what properties you want
-		 * Create a new project
-		 * Create a new class to create objects out of (Animal, food) 
-		 * This class MUST have atleast 4 properties, including String, boolean, int
-		 * Create a constructor for your class
-		 * Make your runner create the object 
-		 */
+		
+		// Make a new object with my new class
+		Cake caterpillarCake = new Cake("Choc", 1, true, "brown, sprinkles");
+		System.out.println(caterpillarCake);
+		
+		// Exercise - Comment out your old constructor, generate a new one
+		// Generate a toString
+		// Create an object and print it out 
 		
 
 	}
