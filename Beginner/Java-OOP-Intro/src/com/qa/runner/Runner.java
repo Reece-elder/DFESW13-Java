@@ -1,11 +1,15 @@
 package com.qa.runner;
 
 import com.qa.cakeDemo.Cake;
+import com.qa.cakeDemo.CakeOverload;
 import com.qa.cakeDemo.CakeTin;
+import com.qa.objectsLists.Habitat;
+import com.qa.objectsLists.Lizards;
 
 public class Runner {
 
 	public static void main(String[] args) {
+		/*
 		
 		// From our runner we need to run our constructor method
 		
@@ -50,6 +54,22 @@ public class Runner {
 		// Add a static method (prints out something) 
 		// Add a static variable you can print out (increases when create a new object, id of the class..)
 	
+		CakeOverload regularCake = new CakeOverload("almond", 2, true, "yellow");
+		CakeOverload birthdayCake = new CakeOverload(4, false, "white", 23);
+	*/
+		
+		// Create my manager object
+		Habitat newHabitat = new Habitat();
+//		Habitat frogHabitat = new Habitat();
+		
+		// Creating a lizard to use
+		Lizards terry = new Lizards("Terry", "Green" , 8, true);
+		
+		// Add my lizard to my habitat
+		newHabitat.addLizard(terry);
+		
+		newHabitat.printHabitat();
+		
 	}
 
 }
