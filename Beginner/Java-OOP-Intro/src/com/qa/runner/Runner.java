@@ -25,13 +25,31 @@ public class Runner {
 		
 		// Make a new object with my new class
 		Cake caterpillarCake = new Cake("Choc", 1, true, "brown, sprinkles");
-		System.out.println(caterpillarCake);
+		Cake carrotCake = new Cake("carrot", 2, true, "orange");
+		System.out.println(caterpillarCake.colour);
+		System.out.println(carrotCake.colour);
+		System.out.println(carrotCake.cakeWidth);
 		
-		// Exercise - Comment out your old constructor, generate a new one
-		// Generate a toString
-		// Create an object and print it out 
 		
-
+		// To run the method of the class 
+		Cake.makeMould();
+		System.out.println(Cake.cakeWidth);
+//		Cake.cookCake(5); - WE CAN'T ACCESS THE instanced VARIABLES FROM THE CLASS
+		
+		// Run the method of the object by accessing the object
+		caterpillarCake.cookCake(45);
+		caterpillarCake.makeMould(); // We can do this.. but don't.
+		
+		
+		Cake blackForest = new Cake("Cherry, choc", 5, true, "Black");
+		System.out.println(blackForest); // Have a value of 3 for the cakesMade
+		System.out.println(Cake.cakesMade);
+		
+		// Exercise - with your current class
+		// Add an instanced method (prints out something) 
+		// Add a static method (prints out something) 
+		// Add a static variable you can print out (increases when create a new object, id of the class..)
+	
 	}
 
 }
