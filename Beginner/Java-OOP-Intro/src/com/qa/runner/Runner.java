@@ -1,6 +1,7 @@
 package com.qa.runner;
 
-import com.qa.cakeDemo.Cake;
+import com.qa.cafe.Cafe;
+import com.qa.cafe.Orders;
 import com.qa.cakeDemo.CakeOverload;
 import com.qa.cakeDemo.CakeTin;
 import com.qa.objectsLists.Habitat;
@@ -56,7 +57,7 @@ public class Runner {
 	
 		CakeOverload regularCake = new CakeOverload("almond", 2, true, "yellow");
 		CakeOverload birthdayCake = new CakeOverload(4, false, "white", 23);
-	*/
+	
 		
 		// Create my manager object
 		Habitat newHabitat = new Habitat();
@@ -69,6 +70,20 @@ public class Runner {
 		newHabitat.addLizard(terry);
 		
 		newHabitat.printHabitat();
+		
+		*/
+		
+		Cafe starReece = new Cafe();
+		Cafe pretAReece = new Cafe();
+		
+		Orders flatWhite = new Orders("flat white", "small", "Hassan", "sprinkles");
+		Orders pumpkinSpice = new Orders("pumpkin spice", "medium", "Aidan", "salted caramel sauce");
+		
+		starReece.printAll();
+		starReece.addOrder(pumpkinSpice);
+		starReece.printAll();
+		starReece.updateOrder(0, flatWhite);
+		starReece.printAll();
 		
 	}
 
