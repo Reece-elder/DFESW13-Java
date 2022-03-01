@@ -5,6 +5,9 @@ import com.qa.cafe.Orders;
 import com.qa.cakeDemo.CakeOverload;
 import com.qa.cakeDemo.CakeTin;
 import com.qa.encapsulation.Horse;
+import com.qa.inheritence.Bird;
+import com.qa.inheritence.Penguin;
+import com.qa.inheritence.Pigeon;
 import com.qa.objectsLists.Habitat;
 import com.qa.objectsLists.Lizards;
 
@@ -85,7 +88,7 @@ public class Runner {
 		starReece.printAll();
 		starReece.updateOrder(0, flatWhite);
 		starReece.printAll();
-		*/
+		
 		
 		// ENCAPSULATION (top)
 		
@@ -101,6 +104,34 @@ public class Runner {
 		// print out the values of your animal 
 		
 		// ENCAPSULATION (bottom)
+		
+		*/
+		
+		// INHERITANCE (top)
+		
+		Penguin percy = new Penguin(15, 6);
+		percy.swim();
+		System.out.println(percy.layEgg());
+		System.out.println(percy.getWingSpan());
+		
+		Pigeon tony = new Pigeon(7, 791);
+		tony.fly();
+		System.out.println(tony.layEgg());
+		System.out.println(tony.getWingSpan());
+		
+		Bird pingu = new Penguin(12, 1);
+		// will I be able to access the variables, methods
+		pingu.layEgg(); // do methods connected to bird, not methods connected to penguin
+		
+//		Penguin pingu2 = new Bird(7);
+		
+		// Exercise - With the animal you made getters and setters for 
+		// IF you can add a parent class and another child class 
+		// make your child classes inherit the parent class
+		// pass atleast 1 property and 1 method
+		// child classes should have atleast 1 unique property and method
+		
+		// INHERITANCE (bottom)
 		
 	}
 
