@@ -113,6 +113,7 @@ public class Runner {
 		percy.swim();
 		System.out.println(percy.layEgg());
 		System.out.println(percy.getWingSpan());
+		percy.printBirdType(percy.getType());
 		
 		Pigeon tony = new Pigeon(7, 791);
 		tony.fly();

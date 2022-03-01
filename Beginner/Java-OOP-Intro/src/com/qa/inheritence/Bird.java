@@ -25,7 +25,11 @@ public class Bird {
 		this.wingSpan = wingSpan;
 	}
 	
+	// Stretch goal - Create a method in the parent,
+	// that requires a param from the child to run
 	
+	public void printBirdType(String type) {
+		System.out.println("Bird of type: " + type);
+	}
 	
-
 }

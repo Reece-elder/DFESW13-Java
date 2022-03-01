@@ -6,6 +6,7 @@ public class Penguin extends Bird {
 	
 	// property
 	private int fishEaten;
+	private String type = "Penguin";
 	// inherited property - wingspan
 
 	// this constructor takes in wingspan AND fisheaten
@@ -23,8 +24,23 @@ public class Penguin extends Bird {
 		this.fishEaten = fishEaten;
 	}
 	
+	// Getter for animal type
+	public String getType() {
+		return type;
+	}
+
 	public void swim() {
 		System.out.println("just keep swimming.. swimming..");
 	}
+	
+	// our penguin class is inheriting the layEgg()
+	// Override annotation is saying "this is the newer method"
+	@Override // @ above a method is an annotation 
+	public String layEgg() {
+		return "sitting on egg to keep it warm";
+	}
+	
+	// exercise - Override one of the parent class methods with a new method
+	
 
 }
