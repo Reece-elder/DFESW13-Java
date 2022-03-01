@@ -3,6 +3,7 @@ package com.qa.cafe;
 import java.util.ArrayList;
 
 public class Cafe {
+	// CRUD Create Read Update Delete
 	
 	// Make my array which takes in orders
 	public ArrayList<Orders> orders = new ArrayList<>();

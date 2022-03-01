@@ -4,6 +4,7 @@ import com.qa.cafe.Cafe;
 import com.qa.cafe.Orders;
 import com.qa.cakeDemo.CakeOverload;
 import com.qa.cakeDemo.CakeTin;
+import com.qa.encapsulation.Horse;
 import com.qa.objectsLists.Habitat;
 import com.qa.objectsLists.Lizards;
 
@@ -71,7 +72,7 @@ public class Runner {
 		
 		newHabitat.printHabitat();
 		
-		*/
+		
 		
 		Cafe starReece = new Cafe();
 		Cafe pretAReece = new Cafe();
@@ -84,6 +85,22 @@ public class Runner {
 		starReece.printAll();
 		starReece.updateOrder(0, flatWhite);
 		starReece.printAll();
+		*/
+		
+		// ENCAPSULATION (top)
+		
+		Horse seaBiscuit = new Horse(true, 12, "chestnut brown", "show jumping");
+		System.out.println(seaBiscuit.getColour()); // we cant do this because the variable is private
+		seaBiscuit.setJob("baker");
+		System.out.println(seaBiscuit.getJob());
+		
+		// Exercise - Create a class of an animal of your choice
+		// Give the animal 4 private properties
+		// Use getters and setters to access the values 
+		// add verification (e.g if colour == "gold") to two of your setters 
+		// print out the values of your animal 
+		
+		// ENCAPSULATION (bottom)
 		
 	}
 
