@@ -1,5 +1,7 @@
 package com.qa.runner;
 
+import java.util.ArrayList;
+
 import com.qa.cafe.Cafe;
 import com.qa.cafe.Orders;
 import com.qa.cakeDemo.CakeOverload;
@@ -10,6 +12,9 @@ import com.qa.inheritence.Penguin;
 import com.qa.inheritence.Pigeon;
 import com.qa.objectsLists.Habitat;
 import com.qa.objectsLists.Lizards;
+import com.qa.pracAbstraction.Cat;
+import com.qa.pracAbstraction.HouseCat;
+import com.qa.pracAbstraction.Lion;
 
 public class Runner {
 
@@ -105,8 +110,6 @@ public class Runner {
 		
 		// ENCAPSULATION (bottom)
 		
-		*/
-		
 		// INHERITANCE (top)
 		
 		Penguin percy = new Penguin(15, 6);
@@ -133,6 +136,28 @@ public class Runner {
 		// child classes should have atleast 1 unique property and method
 		
 		// INHERITANCE (bottom)
+		  
+		*/
+		
+		// ABSTRACTION (top)
+		
+//		Cat defaultCat = new Cat - cant do this because cat is an abstract class
+		Cat tony = new Lion(4, false, true, 9); // Lion == Cat, but we can't create a Cat 
+		Cat zaph = new HouseCat(4, false, false, "blue"); 
+		
+		// How could I create a list which contains both animals?
+		ArrayList<Cat> listOfCats = new ArrayList<>();
+		listOfCats.add(zaph);
+		listOfCats.add(tony);
+		
+		// Exercise 
+		// - Make a parent abstract class animal with 2 properties and 1 abstract method
+		// - Make 1 interface which does a system print out
+		// - Make a child class which extends off of the parent class AND implements interface
+		// - Create the child object in the runner 
+		
+		// ABTSRACTION (bottom)
+
 		
 	}
 
