@@ -47,4 +47,13 @@ public abstract class Cat {
 	// Abstract Method
 	// This method is not useful as an abstract method, only useful when a child inherits it and modifies it 
 	public abstract String noise();
+
+	@Override
+	public String toString() {
+		return "Cat [legs=" + legs + ", stripes=" + stripes + ", dangerous=" + dangerous + "]";
+	}
+	
+	
+	
+	
 }

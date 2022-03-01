@@ -22,6 +22,16 @@ public class HouseCat extends Cat{
 		// TODO Auto-generated method stub
 		return "Purrrrrrrrr";
 	}
+
+	@Override
+	public String toString() {
+		return "HouseCat [collarColour=" + collarColour + ", legs" + getLegs() + ", Stripes" + isStripes()
+				+ ", isDangerous()=" + isDangerous() + "]";
+	}
+
+
+	
+	
 	
 	
 

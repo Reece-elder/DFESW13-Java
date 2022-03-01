@@ -2,7 +2,7 @@ package com.qa.abstraction;
 
 // Flamingo will inherit the values from our abstract class Bird
 // to tell my flamingo to use the interface, implements <interface name>
-public class Flamingo extends Bird implements EatsPrawns, LayEgg {
+public class Flamingo extends Bird implements EatsPrawns {
 	
 	private String colour;
 	
@@ -30,14 +30,9 @@ public class Flamingo extends Bird implements EatsPrawns, LayEgg {
 	}
 
 	@Override
-	public String layEgg() {
-		// TODO Auto-generated method stub
-		return null;
-	}
-
-	@Override
 	public void eatPrawns() {
 		// TODO Auto-generated method stub
 		
 	}
+
 }

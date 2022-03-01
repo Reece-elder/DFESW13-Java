@@ -2,6 +2,8 @@ package com.qa.runner;
 
 import java.util.ArrayList;
 
+import com.qa.abstractionExercise.Chameleon;
+import com.qa.abstractionExercise.Reptile;
 import com.qa.cafe.Cafe;
 import com.qa.cafe.Orders;
 import com.qa.cakeDemo.CakeOverload;
@@ -12,6 +14,7 @@ import com.qa.inheritence.Penguin;
 import com.qa.inheritence.Pigeon;
 import com.qa.objectsLists.Habitat;
 import com.qa.objectsLists.Lizards;
+import com.qa.polymorphism.Pizza;
 import com.qa.pracAbstraction.Cat;
 import com.qa.pracAbstraction.HouseCat;
 import com.qa.pracAbstraction.Lion;
@@ -136,8 +139,7 @@ public class Runner {
 		// child classes should have atleast 1 unique property and method
 		
 		// INHERITANCE (bottom)
-		  
-		*/
+
 		
 		// ABSTRACTION (top)
 		
@@ -149,6 +151,7 @@ public class Runner {
 		ArrayList<Cat> listOfCats = new ArrayList<>();
 		listOfCats.add(zaph);
 		listOfCats.add(tony);
+		System.out.println(listOfCats);
 		
 		// Exercise 
 		// - Make a parent abstract class animal with 2 properties and 1 abstract method
@@ -156,9 +159,20 @@ public class Runner {
 		// - Make a child class which extends off of the parent class AND implements interface
 		// - Create the child object in the runner 
 		
-		// ABTSRACTION (bottom)
-
+		Reptile callum = new Chameleon("tree", "chameleon", 6, "Cricket");
+		System.out.println(callum.useCamouflage());
 		
+		// ABSTRACTION (bottom)
+
+				  
+		*/
+		
+		// POLYMORPHISM
+		
+		Pizza pepperoni = new Pizza(12, "pepperoni", false);
+		System.out.println(pepperoni);
+		
+		// POLYMORPHISM
 	}
 
 }
