@@ -67,5 +67,68 @@ public class BasicTest {
 	// "blue" = "blue"
 	// "red" + "triangle" = "red triangle"
 	// 10 * 3 != 40
+	
+	
+	@Test
+	public void blueIsBlue() {
+		// Arrange
+		String query;
+		
+		// Act
+		query = "blue";
+		
+		// Assert
+		Assertions.assertEquals("blue", query);
+	}
+	
+	@Test
+	public void redTriangle() {
+		// Arrange
+		String queryColour = "red";
+		String queryShape = "triangle";
+		String wholeQuery;
+		
+		// Act
+		wholeQuery = queryColour + " " + queryShape;
+		
+		// Assert
+		Assertions.assertEquals("red triangle", wholeQuery);
+	}
+	
+	@Test 
+	public void tenTimes() {
+		// using not *technically* the test is fine and has coverage 
+		// 10 * 3 is not 40 - should always be testing for what something is and not what it is not
+		
+		// Arrange
+		int num1 = 10;
+		int num2 = 3;
+		int sum;
+		
+		// Act
+		sum = num1 * num2;
+		
+		// Assert
+		Assertions.assertFalse(sum == 40);
+	}
+	
+	// double equal to 5.92 
+	// int chops off the decimal, leaves the whole number = 5
+	@Test
+	public void divisionOne() {
+		// 23 / 4
+		double num1 = 23;
+		double num2 = 4;
+		double sum;
+		
+		sum = num1/num2;
+		System.out.println(sum);
+		
+		Assertions.assertEquals(5.75, sum);
+		
+	}
+	
+	// generally not using hard coded in numbers 
+	// generally not arithmetic 
 
 }
