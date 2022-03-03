@@ -33,6 +33,7 @@ public class BlackJack {
 		// Exercise - Go back and test one of your exercises covered in the week
 		// Iteration exercises, make sure they return something
 		// Conditionals 
+		// If you cant find a nice one, create a basic calculator and test those methods
 	}
 
 }
