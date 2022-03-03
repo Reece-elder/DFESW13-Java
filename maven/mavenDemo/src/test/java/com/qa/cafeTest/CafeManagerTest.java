@@ -69,4 +69,8 @@ public class CafeManagerTest {
 	// Not valid testing 
 	// Setup functions which run before all other tests to setup our environment
 	// JUnit tests don't necessarily work top to bottom 
+	
+	// Exercise - Using your own array List exercise 
+	// Test all of the methods, making sure they return something
+	// if need be for the test to pass
 }
