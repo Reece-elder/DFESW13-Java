@@ -1,0 +1,65 @@
+public void changeCalculate(float cost, float paid) {
+		
+		// Using floats as prices aren't whole numbers (whole £)
+//		float cost;   // price of an item 
+//		float paid;   // how much the user paid
+		float change; // how much change they should be getting back
+		
+		// the £ giving back
+		int fifty = 0;
+		int twenty = 0;
+		int ten = 0;
+		int five = 0;
+		int two = 0;
+		int one = 0; 
+		int fiftyPence = 0;
+		int twentyPence = 0;
+		int tenPence = 0;
+		int fivePence = 0;
+		int twoPence = 0;
+		int onePence = 0;
+		
+		// Change = paid - cost
+		change = paid - cost;
+		
+		// While there is more change than £50, increase fifty by 1
+		// And subtract 50 from the total change
+		
+		// if (change > 50) increase fifty by 1 remove fifty from change 
+		
+		while(change > 50) {
+			fifty++; 	// incrementing by 1
+			change-=50; // decrementing by 50
+		} 
+		
+		while(change > 20) {
+			twenty++; 	
+			change-=20;
+		} 
+		
+		while(change > 10) {
+			ten++; 	
+			change-=10;
+		}
+		
+		while(change > 5) {
+			five++; 	
+			change-=5;
+		} 
+		
+		while(change > 2) {
+			two++; 	
+			change-=2;
+		} 
+		
+		while(change > 1) {
+			one++; 	
+			change-=1;
+		} 
+		
+		System.out.println("Number of £50: " + fifty);
+		System.out.println("Number of £20: " + twenty);
+		System.out.println("Number of £10: " + ten);
+		System.out.println("Number of £5: " + five);
+		
+	}
